@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		48F6B8AF2B33122C003B25A1 /* Apple_FrameworksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F6B8AE2B33122C003B25A1 /* Apple_FrameworksApp.swift */; };
-		48F6B8B12B33122C003B25A1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F6B8B02B33122C003B25A1 /* ContentView.swift */; };
 		48F6B8B32B33122E003B25A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48F6B8B22B33122E003B25A1 /* Assets.xcassets */; };
 		48F6B8B62B33122E003B25A1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48F6B8B52B33122E003B25A1 /* Preview Assets.xcassets */; };
 		48F6B8C02B33122E003B25A1 /* Apple_FrameworksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F6B8BF2B33122E003B25A1 /* Apple_FrameworksTests.swift */; };
 		48F6B8CA2B33122E003B25A1 /* Apple_FrameworksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F6B8C92B33122E003B25A1 /* Apple_FrameworksUITests.swift */; };
 		48F6B8CC2B33122E003B25A1 /* Apple_FrameworksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F6B8CB2B33122E003B25A1 /* Apple_FrameworksUITestsLaunchTests.swift */; };
 		48F6B8D92B3312DE003B25A1 /* Framework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F6B8D82B3312DE003B25A1 /* Framework.swift */; };
+		48F6B8DD2B332D2D003B25A1 /* FrameworkGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F6B8DC2B332D2D003B25A1 /* FrameworkGridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,6 @@
 /* Begin PBXFileReference section */
 		48F6B8AB2B33122C003B25A1 /* Apple_Frameworks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Apple_Frameworks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48F6B8AE2B33122C003B25A1 /* Apple_FrameworksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_FrameworksApp.swift; sourceTree = "<group>"; };
-		48F6B8B02B33122C003B25A1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		48F6B8B22B33122E003B25A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48F6B8B52B33122E003B25A1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		48F6B8BB2B33122E003B25A1 /* Apple_FrameworksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Apple_FrameworksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +45,7 @@
 		48F6B8C92B33122E003B25A1 /* Apple_FrameworksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_FrameworksUITests.swift; sourceTree = "<group>"; };
 		48F6B8CB2B33122E003B25A1 /* Apple_FrameworksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_FrameworksUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		48F6B8D82B3312DE003B25A1 /* Framework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework.swift; sourceTree = "<group>"; };
+		48F6B8DC2B332D2D003B25A1 /* FrameworkGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,10 +97,10 @@
 			isa = PBXGroup;
 			children = (
 				48F6B8AE2B33122C003B25A1 /* Apple_FrameworksApp.swift */,
-				48F6B8B02B33122C003B25A1 /* ContentView.swift */,
+				48F6B8DC2B332D2D003B25A1 /* FrameworkGridView.swift */,
+				48F6B8D82B3312DE003B25A1 /* Framework.swift */,
 				48F6B8B22B33122E003B25A1 /* Assets.xcassets */,
 				48F6B8B42B33122E003B25A1 /* Preview Content */,
-				48F6B8D82B3312DE003B25A1 /* Framework.swift */,
 			);
 			path = Apple_Frameworks;
 			sourceTree = "<group>";
@@ -260,7 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48F6B8B12B33122C003B25A1 /* ContentView.swift in Sources */,
+				48F6B8DD2B332D2D003B25A1 /* FrameworkGridView.swift in Sources */,
 				48F6B8AF2B33122C003B25A1 /* Apple_FrameworksApp.swift in Sources */,
 				48F6B8D92B3312DE003B25A1 /* Framework.swift in Sources */,
 			);
